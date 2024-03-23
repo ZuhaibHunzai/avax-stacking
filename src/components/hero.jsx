@@ -16,7 +16,7 @@ export default function Hero() {
         </h1>
       </div>
       <div className="mt-4 p-8">
-        <img src={heroImg} alt="eth" className="h-full" />
+        <img src={heroImg} alt="eth" className="h-[250px] sm:h-full " />
       </div>
     </div>
   );
