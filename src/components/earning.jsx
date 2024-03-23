@@ -8,17 +8,17 @@ const Earning = () => {
         <div className="w-full md:w-[400px]   h-[auto] min-h-[350px] bg-[#C51E00] text-white rounded-lg text-left p-2 divide-y divide-y-reverse divide-white">
           <div className="divide-y divide-y-reverse divide-white py-4">
             <p className="text-xl font-semibold  ">Total Deposits</p>
-            <p className="text-2xl font-bold  pb-4">0.0000ETH</p>
+            <p className="text-2xl font-bold  pb-4">0.0000 AVAX</p>
           </div>
           <div className="py-4">
             <p className="text-xl font-semibold  ">Dividends</p>
-            <p className="text-2xl font-bold  ">0.0000ETH</p>
+            <p className="text-2xl font-bold  ">0.0000 AVAX</p>
           </div>
           <div className=" py-4">
             <p className="text-xl font-semibold  ">
               Available (Referral + Dividend)
             </p>
-            <p className="text-2xl font-bold  ">0.0000ETH</p>
+            <p className="text-2xl font-bold  ">0.0000 AVAX</p>
           </div>
           <div className="border-none mt-8">
             <button className="w-full bg-[#F6F9FB] text-black text-lg font-semibold rounded-xl py-2 border-none transition duration-300 hover:scale-105">
@@ -60,11 +60,11 @@ const Earning = () => {
               <p className="text-xl font-semibold  ">
                 Available referral earning
               </p>
-              <p className="text-2xl font-bold  ">0.0000ETH</p>
+              <p className="text-2xl font-bold  ">0.0000 AVAX</p>
             </div>
             <div className=" py-4">
               <p className="text-xl font-semibold  ">Total referral earning</p>
-              <p className="text-2xl font-bold  ">0.0000ETH</p>
+              <p className="text-2xl font-bold  ">0.0000 AVAX</p>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import PlansCard from "./plansCard";
 const ContractStart = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-center">
-      <div className="w-full">
+      <div className="w-full mt-8">
         <div className="bg-[#C51E00] py-4 rounded-xl">
           <p className="text-white uppercase font-semibold">
             Contract Starts in:
@@ -15,7 +15,7 @@ const ContractStart = () => {
         </div>
         <div className="w-full text-left ">
           <h1 className="text-3xl text-black font-semibold mt-4">
-            Choose you plan
+            Choose your plan
           </h1>
           <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4 justify-items-stretch grid-flow-row">
             {planCardsData?.map((data, index) => {

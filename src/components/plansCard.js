@@ -29,11 +29,11 @@ const PlansCard = ({ plan, percentage, duration, roi, invest, get }) => {
       </div>
       <div className="w-full flex justify-between py-3 bg-[#F6F9FB] rounded-lg">
         <div>
-          <p className="font-semibold">minimum {invest}ETH</p>
+          <p className="font-semibold">minimum {invest} AVAX</p>
         </div>
         <div>
           <p className="font-semibold bg-white py-2 px-2 rounded-lg mr-2">
-            Return: {get}ETH
+            Return: {get} AVAX
           </p>
         </div>
       </div>
