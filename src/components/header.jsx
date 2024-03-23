@@ -1,38 +1,3 @@
-// const Header = () => {
-//   return (
-//     <div className="w-full flex justify-around h-[8vh]">
-//       <div>
-//         <h1>Avalanch Stake</h1>
-//       </div>
-//       <div className="flex items-center">
-//         <div>
-//           <ul className="flex px-2 mx-2">
-//             <li className="">
-//               <p>Contract</p>
-//             </li>
-//             <li className="">
-//               <p>Audit</p>
-//             </li>
-//             <li className="">
-//               <p>Twitter</p>
-//             </li>
-//             <li className="">
-//               <p>Telegram</p>
-//             </li>
-//             <li className="">
-//               <p>Medium</p>
-//             </li>
-//           </ul>
-//         </div>
-//         <button className="py-2 px-4 rounded-xl bg-[#C51E00] text-white">
-//           Connect
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
-// export default Header;
-
 import React from "react";
 import { useState } from "react";
 
