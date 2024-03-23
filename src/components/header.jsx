@@ -28,7 +28,7 @@ const Navbar = () => {
   const navItems = ["Contract", "Audit", "Twitter", "Telegram", "Medium"];
 
   return (
-    <nav className="width navbar h-[80px] flex items-center justify-between">
+    <nav className="width navbar h-[80px] flex items-center justify-between px-3">
       <div className="logo py-3">
         <a
           to="/"
