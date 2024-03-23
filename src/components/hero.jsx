@@ -15,7 +15,7 @@ export default function Hero() {
           Up to 20% Daily on <br /> Ethereum Staking
         </h1>
       </div>
-      <div className="">
+      <div className="mt-4 p-8">
         <img src={heroImg} alt="eth" className="h-full" />
       </div>
     </div>
