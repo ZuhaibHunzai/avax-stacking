@@ -31,11 +31,11 @@ const Earning = () => {
           <div className="w-full md:w-[850px]  h-[auto] min-h-[350px] bg-white rounded-lg text-left p-2 divide-y divide-y-reverse divide-[#C51E00]">
             <div className="divide-y divide-y-reverse divide-[#C51E00] py-4">
               <div>
-                <p className="text-xl font-semibold  ">Referral link</p>
+                <p className="text-2xl font-bold  ">Referral link</p>
               </div>
               <div className="flex">
                 <div>
-                  <p className="text-xl font-bold   pb-4">
+                  <p className="text-xl font-semibold ">
                     https://avax.finance/?ref=123423423123123
                   </p>
                 </div>
@@ -49,22 +49,20 @@ const Earning = () => {
               </div>
             </div>
             <div className="py-4">
-              <p className="text-xl font-semibold  ">Referral Count</p>
-              <p className="text-2xl font-bold  ">
+              <p className="text-2xl font-bold">Referral Count</p>
+              <p className="text-xl font-semibold ">
                 Tier 1: <span className="text-[#C51E00]">0</span> (Rate:5%) Tier
                 2: <span className="text-[#C51E00]">0</span> (Rate:3%) Tier 3 :{" "}
                 <span className="text-[#C51E00]">0</span> (Rate:2%)
               </p>
             </div>
             <div className=" py-4">
-              <p className="text-xl font-semibold  ">
-                Available referral earning
-              </p>
-              <p className="text-2xl font-bold  ">0.0000 AVAX</p>
+              <p className="text-2xl font-bold">Available referral earning</p>
+              <p className="text-xl font-semibold">0.0000 AVAX</p>
             </div>
             <div className=" py-4">
-              <p className="text-xl font-semibold  ">Total referral earning</p>
-              <p className="text-2xl font-bold  ">0.0000 AVAX</p>
+              <p className="text-2xl font-bold">Total referral earning</p>
+              <p className="text-xl font-semibold ">0.0000 AVAX</p>
             </div>
           </div>
         </div>
