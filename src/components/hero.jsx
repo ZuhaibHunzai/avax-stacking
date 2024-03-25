@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../assets/images/hero-img.png";
+import heroImg from "../assets/images/heroImg.png";
 
 export default function Hero() {
   return (
@@ -12,7 +12,8 @@ export default function Hero() {
         <div class="h-[2px] bg-[#C51E00] mt-2"></div>
         <br />
         <h1 className="text-5xl font-bold">
-          Up to 20% Daily on <br /> Ethereum Staking
+          Up to <span className="text-[#C51E00]">20%</span> Daily on <br />{" "}
+          Ethereum Staking
         </h1>
       </div>
       <div className="mt-4 p-8">

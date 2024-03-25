@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -29,20 +30,20 @@ const Navbar = () => {
 
   return (
     <nav className="width navbar h-[80px] flex items-center justify-between px-3">
-      <div className="logo py-3">
+      <div className="logo py-3 ">
         <a
           to="/"
           className="flex items-center gap-x-3 "
           onClick={() => navClickFunc("img")}
         >
           <img
-            src="/image/logo.png"
-            className="sm:w-[60px] w-[40px] object-cover"
+            src={logo}
+            className="sm:w-[60px] w-[60px] object-cover"
             alt=""
           />
-          <span className="font-primary sm:text-[30px] text-[20px] font-bold uppercase">
+          <span className="font-primary sm:text-[35px] text-[20px] font-bold uppercase">
             {" "}
-            AVAX
+            AVAXER
           </span>
         </a>
       </div>

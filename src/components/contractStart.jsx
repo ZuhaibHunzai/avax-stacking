@@ -5,7 +5,7 @@ const ContractStart = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-center">
       <div className="w-full mt-8">
-        <div className="bg-[#C51E00] py-4 rounded-xl">
+        <div className="bg-[#C51E00] py-4 px-2 rounded-xl">
           <p className="text-white uppercase font-semibold">
             Contract Starts in:
           </p>
