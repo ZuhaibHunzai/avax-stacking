@@ -20,7 +20,7 @@ const config = getDefaultConfig({
   appName: "Avax Staking",
   projectId: "7e778a0cc9adc4e4434bf73bff51f07c",
   chains: [mainnet, polygon, optimism, arbitrum, base, zora, avalanche],
-  ssr: true,
+  // ssr: true,
 });
 const queryClient = new QueryClient();
 
