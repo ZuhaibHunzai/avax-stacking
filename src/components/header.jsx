@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import logo from "../assets/images/logo.png";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -70,9 +71,9 @@ const Navbar = () => {
           <button className="px-3 py-2 rounded-lg bg-[#C51E00] text-white font-secondary text-[13px] transition duration-300 hover:scale-105 ">
             Contract balance : 0.0 AVAX
           </button>
-          <button className="px-3 py-2 rounded-lg bg-[#C51E00] text-white font-secondary text-[13px] transition duration-300 hover:scale-105 ">
-            0xACBD...CB34
-          </button>
+          <div className="">
+            <ConnectButton />
+          </div>
         </div>
       </div>
       {/* ANIMATED HAMBURGER */}
@@ -133,9 +134,9 @@ const Navbar = () => {
             <button className="btn-primary max-w-[300px] w-full px-3 py-2 rounded-lg bg-red text-white font-primary text-[13px] transition duration-300 hover:scale-105 ">
               Contract balance : 0.0 AVAX
             </button>
-            <button className="btn-primary max-w-[300px] w-full px-3 py-2 rounded-lg bg-red text-white font-primary text-[13px] transition duration-300 hover:scale-105 ">
-              0xACBD.CB34
-            </button>
+            <div className="">
+              <ConnectButton />
+            </div>
           </div>
         </div>
       </div>
