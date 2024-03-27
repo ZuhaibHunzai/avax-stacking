@@ -72,7 +72,7 @@ const Navbar = () => {
             Contract balance : 0.0 AVAX
           </button>
           <div className="">
-            <ConnectButton />
+            <ConnectButton showBalance={false} />
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@ const Navbar = () => {
               Contract balance : 0.0 AVAX
             </button>
             <div className="">
-              <ConnectButton />
+              <ConnectButton showBalance={false} />
             </div>
           </div>
         </div>
