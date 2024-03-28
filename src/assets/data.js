@@ -1,3 +1,5 @@
+export const STAKING_ADDRESS = "0x68a37c633F330340dC3dfDA7DF282036D4DaE3f7";
+
 export const planCardsData = [
   {
     plan: "1",

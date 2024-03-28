@@ -1,6 +1,12 @@
+import { STAKING_ADDRESS } from "../assets/data";
+
 const PlansCard = ({ plan, percentage, duration, roi, invest, get }) => {
+  const handleStake = async () => {
+    try {
+    } catch (e) {}
+  };
   return (
-    <div className=" md:w-full h-[auto] min-h-[350px] bg-white p-2 divide-y divide-y-reverse divide-[#C51E00] rounded-xl flex flex-col justify-around">
+    <div className=" md:w-full h-[auto] min-h-[350px] bg-white p-2 divide-y divide-y-reverse divide-[#C51E00] rounded-xl flex flex-col justify-around shadow-lg">
       <div>
         <p className="text-[#C51E00] font-semibold text-center text-lg uppercase">
           Plan {plan}
